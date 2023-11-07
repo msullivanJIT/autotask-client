@@ -38,7 +38,7 @@ class ResourceEntity extends DataTransferObject
     public ?string $officeExtension;
     public ?string $officePhone;
     public int $payrollType;
-    public string $payrollIndentifier;
+    public ?string $payrollIndentifier;
     public string $resourceType;
     public ?int $suffix;
     public ?float $surveyResourceRating;
